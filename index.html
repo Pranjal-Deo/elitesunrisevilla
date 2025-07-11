@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elite Sunrise Villa - Lonavala</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Elite Sunrise Villa</h1>
+  <p>Your Private Getaway in Lonavala</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#booking">Booking</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="hero">
+  <div class="overlay">
+    <h2>Relax. Recharge. Repeat.</h2>
+    <a href="#booking" class="btn">Book Now</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About the Villa</h2>
+  <p>Elite Sunrise Villa offers a serene escape with 3 luxurious bedrooms, a private pool, and modern amenities nestled in the scenic beauty of Lonavala.</p>
+</section>
+
+<section id="features">
+  <h2>Key Features</h2>
+  <ul class="features-list">
+    <li>🏡 3 Spacious Bedrooms (Sleeps 6 Adults)</li>
+    <li>🏊‍♀️ Private Swimming Pool</li>
+    <li>🌿 Garden & Outdoor Seating</li>
+    <li>🍽️ Fully Equipped Kitchen</li>
+    <li>📺 Smart TV & Free Wi-Fi</li>
+    <li>🚗 Free Parking & Air Conditioning</li>
+  </ul>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="carousel">
+    <img src="images/villa1.jpeg" alt="Villa Image" id="carousel-img">
+    
+    <div class="carousel-buttons">
+      <button onclick="prevImage()">‹</button>
+      <button onclick="nextImage()">›</button>
+    </div>
+  </div>
+</section>
+
+<section id="booking">
+  <h2>Book Your Stay</h2>
+  <p>Click below to book securely through Booking.com.</p>
+  <a href="https://www.booking.com/hotel/in/elite-sunrise-villa.en-gb.html" class="btn" target="_blank">Reserve on Booking.com</a>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form id="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+  <p class="form-status"></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Elite Sunrise Villa. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
